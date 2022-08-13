@@ -47,5 +47,41 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         </form>
       </div>
     </nav> 
+        
+        
+    <div class="container">
+
+        <h1>Formulario de regestro de Libros</h1>
+        <a href="NewServlet" > Cosultar registro libros </a><br><br>
+        <form action="NewServlet">
+            <div class="form-group">
+                <label for="exampleInputName">Codigo</label>
+                <input class="form-control" type="text" placeholder="ingresar codigo" name="codigo" >
+            </div>
+            <div class="form-group">
+                <label for="exampleInputName">Nombre del libro</label>
+                <input class="form-control" type="text" placeholder="ingresar nombre libro" name="nombre" >
+            </div>
+            <label for="exampleInputName">Tipo de pasta</label>
+            <select class="form-control" name="Tipo de Pasta">
+                <option value="1">Pasta Dura</option>
+                <option value="2">Pasta Suave</option>
+                <option value="3">Pasta de papel </option>
+                <br>
+            </select>
+             <div class="form-group">
+                <label for="exampleInputName">Nombre editorial</label>
+                <input class="form-control" type="text" placeholder="ingresar nombre editorial" name="editorial" >
+             <div class="form-group">
+                <label for="exampleInputName">Año de publicacion</label>
+                <input class="form-control" type="text" placeholder="ingresar año de publicacion" name="año" >
+            </div>
+            <br>
+            
+            
+            <button type="submit" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-danger">Cancelar</button>
+        </form>
+    </div>    
     </body>
 </html>
