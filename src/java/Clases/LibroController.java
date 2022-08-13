@@ -22,7 +22,7 @@ package Clases;
         this.indiceArray=this.indiceArray+1;
     }
     
-    public Libro[] getAlumnos(){
+    public Libro[] getLibros(){
         return this.tablaLibro;
     }
     
